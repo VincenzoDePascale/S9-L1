@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./Components/ButtonComponent.jsx";
+import ButtonComponent from "./Components/ButtonComponent.jsx";
+import ImgComponent from "./Components/ImgComponent.jsx";
 
 function App() {
   return (
@@ -9,6 +12,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <ImgComponent
+          linkImg="http://placekitten.com/200/300"
+          linkImgAlt="gattino a caso"
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -16,6 +23,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <ButtonComponent backgroundColor="green" title="bottone1!" />
+          <ButtonComponent backgroundColor="red" title="bottone2!" />
         </a>
       </header>
     </div>
