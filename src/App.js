@@ -13,8 +13,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <ImgComponent
-          linkImg="http://placekitten.com/200/300"
-          linkImgAlt="gattino a caso"
+          link="http://placekitten.com/200/300"
+          alt="gattino a caso"
         />
         <a
           className="App-link"
