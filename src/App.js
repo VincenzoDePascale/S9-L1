@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "./Components/ButtonComponent.jsx";
 import ButtonComponent from "./Components/ButtonComponent.jsx";
 import ImgComponent from "./Components/ImgComponent.jsx";
 
